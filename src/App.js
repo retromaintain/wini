@@ -53,7 +53,7 @@ function App() {
       );
     };
 
-    // animateText();
+    animateText();
   }, []);
 
   return (
