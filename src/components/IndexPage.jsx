@@ -9,10 +9,10 @@ function IndexPage() {
         
             <div className="bg-black/90 border-t-2 ">
                 
-                <div className="mx-auto container pt-20 lg:pt-1  flex flex-col items-center justify-center mt-5 p-4">
+                <div className="mx-auto container pt-20 lg:pt-1  flex flex-col items-center justify-center mt-5 p-4 ">
                 {/* <div className="w-9/12  h-0.5 bg-gray-100 rounded-full m-5" /> */}
-                    <div>
-                        <RiMoonClearFill size={92} color="white" />
+                    <div className="rotate-element">
+                        <RiMoonClearFill size={92} color="white"  />
                      
                     </div>
                     <div className="text-white flex flex-col md:items-center f-f-l pt-3 mb-6">
@@ -20,7 +20,7 @@ function IndexPage() {
 
 
                         <div className="text-sm text-color mb-10 f-f-l mt-3">
-                            <p className="pfont text-xl">Made with <AiFillHeart size={24} className="inline text-red-600 heart"/> by <span className="textfont">Emely</span></p>
+                            <p className="pfont text-xl">Made with <AiFillHeart size={24} className="inline text-red-600 heart"/> by <span className="textfont">Emely & Jasiel</span></p>
                         </div>
                     </div>
                     

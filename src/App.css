@@ -78,3 +78,16 @@ html {
   }
 }
 
+/* CSS for the hover effect */
+.rotate-element {
+  /* Initial rotation angle */
+  transform: rotate(0deg);
+
+  /* Add a transition for smooth animation */
+  transition: transform 0.3s ease-in-out;
+}
+
+/* Apply the rotation on hover */
+.rotate-element:hover {
+  transform: rotate(45deg);
+}
