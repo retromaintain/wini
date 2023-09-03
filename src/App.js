@@ -53,7 +53,7 @@ function App() {
       );
     };
 
-    animateText();
+    // animateText();
   }, []);
 
   return (
@@ -116,18 +116,44 @@ function App() {
             </Parallax>
 
             <p className="our-text px-0 mb-8 mt-6 text-xl text-gray-500 md:text-2xl lg:px-24 pfont">
-              Hello <span className="textfont text-white">moongirl</span>, You are finally <span className="textfont text-white">19</span>. We have been friends for <span className="textfont text-white">6 years</span> now. <span className="italic textfont text-white">What?</span> How does time fly so fast? Today is your <span className="textfont text-white">birthday</span> and this tradition of always doing something and writing something
-              for each other <span className="textfont text-white">continues</span>. 
-              <br/>
-              <br/>
-              I wanted to do something <span className="textfont text-white">different</span> this
-              year and that could <span className="textfont text-white">surprise</span> you. <span className="textfont text-white">Winifer</span>, you are one of my most
-              <span className="textfont text-white"> precious </span> friends and I hope I can always be by your side. 
-              <br/>
-              <br/>
-              <span className="textfont text-white">It doesn’t matter</span> if we fight or if we are <span className="textfont text-white">far away</span> from each other <span className="textfont text-white"> I want to always be your friend</span> and be with you during <span className="textfont text-white">good</span> and <span className="textfont text-white">bad </span>
-              times. Anyways, <span className="textfont text-white">happy birthday moongirl</span> and I hope I can always be
-              next to you on all of your birthdays. Remember, <span className="textfont text-white">in every moon I see you.</span>
+              Hello <span className="textfont text-white">moongirl</span>, You
+              are finally <span className="textfont text-white">19</span>. We
+              have been friends for{" "}
+              <span className="textfont text-white">6 years</span> now.{" "}
+              <span className="italic textfont text-white">What?</span> How does
+              time fly so fast? Today is your{" "}
+              <span className="textfont text-white">birthday</span> and this
+              tradition of always doing something and writing something for each
+              other <span className="textfont text-white">continues</span>.
+              <br />
+              <br />I wanted to do something{" "}
+              <span className="textfont text-white">different</span> this year
+              and that could{" "}
+              <span className="textfont text-white">surprise</span> you.{" "}
+              <span className="textfont text-white">Winifer</span>, you are one
+              of my most <span className="textfont text-white"> precious </span> friends
+              and I hope I can always be by your side.
+              <br />
+              <br />
+              <span className="textfont text-white">It doesn’t matter</span> if
+              we fight or if we are{" "}
+              <span className="textfont text-white">far away</span> from each
+              other{" "}
+              <span className="textfont text-white">
+                {" "}
+                I want to always be your friend
+              </span>{" "}
+              and be with you during{" "}
+              <span className="textfont text-white">good</span> and{" "}
+              <span className="textfont text-white"> bad </span> times. Anyways,{" "}
+              <span className="textfont text-white">
+                happy birthday moongirl
+              </span>{" "}
+              and I hope I can always be next to you on all of your birthdays.
+              Remember,{" "}
+              <span className="textfont text-white">
+                in every moon I see you.
+              </span>
             </p>
 
             <div className="mb-4 space-x-0 md:space-x-2 md:mb-8">
