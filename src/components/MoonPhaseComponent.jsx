@@ -29,8 +29,8 @@ function MoonPhaseComponent() {
         let occasion = "";
         if (year === 2004 && month === 10 && day === 17) {
           occasion = "the day you were born";
-        } else if (year === 2020 && month === 1 && day === 2) {
-          occasion = "when we met";
+        } else if (year === 2017 && month === 9 && day === 6) {
+          occasion = "the day we met";
         } else if (
           year === today.getFullYear() &&
           month === today.getMonth() + 1 &&
@@ -84,7 +84,7 @@ function MoonPhaseComponent() {
   const [html, setHtml] = useState([]);
 
   return (
-    <div className="flex items-center mx-72 mb-48">
+    <div className="container mx-auto p-4 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
       {html.map((element, index) => (
         <div key={index} id="ex1" className="moon-phase items-center flex">
           {element}

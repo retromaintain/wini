@@ -10,6 +10,7 @@ function MoonIndex() {
         autoplay={true}
         loop={true}
         controls={true}
+        speed={0.4}
         src="https://lottie.host/82a80820-36ee-4c3f-94fc-7435b00d8223/iCvVLBYtKW.json"
        
       ></Player>

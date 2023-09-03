@@ -6,9 +6,15 @@ import reportWebVitals from './reportWebVitals';
 import { ParallaxProvider } from 'react-scroll-parallax';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
+
+
+
+// Function to check if the screen width indicates a mobile device.
+const isMobile = () => window.innerWidth <= 768; // Adjust the threshold as needed.
+
 root.render(
   <React.StrictMode>
-    <ParallaxProvider>
+    <ParallaxProvider isDisabled={isMobile()}>
     
     <App />
     </ParallaxProvider>

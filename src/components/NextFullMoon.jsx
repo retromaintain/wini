@@ -55,9 +55,9 @@ function NextFullMoon() {
   }, []);
 
   return (
-    <div>
+    <div className='mb-20'>
       {nextFullMoonInfo.date ? (
-        <p className='text-white text-6xl text-center textfont -mt-64'>
+        <p className='text-white text-6xl text-center textfont md:-mt-64'>
           The Next Full Moon Will Be On: {nextFullMoonInfo.date} of {nextFullMoonInfo.month}, {nextFullMoonInfo.year} <br/> Are You Ready?
         </p>
       ) : (
